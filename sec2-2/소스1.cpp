@@ -1,3 +1,4 @@
+#define CRT_SECURE_NO_WARNING
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -18,14 +19,14 @@ int main(void) {
 	int *x;
 	puts("선형검색");
 	printf("요소 개수: ");
-	scanf("%d", &nx);
-	x = calloc(nx, sizeof(int));
+	scanf_s("%d", &nx);
+	x = (int *) calloc(nx, sizeof(int));
 	for (i = 0; i < nx; i++) {
 		printf("x[%d]:", i);
 		scanf("%d", &x[i]);
 	}
 	printf("검색값: ");
-	scanf("%d", &ky);
+	scanf_s("%d", &ky);
 	idx = search(x, nx, ky);
 	if (idx == -1)
 		puts("검색에 실패 했습니다.");
