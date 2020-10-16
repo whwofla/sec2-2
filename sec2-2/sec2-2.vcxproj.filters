@@ -28,10 +28,16 @@
       <Filter>리소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소스4.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>리소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소스5.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스6.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스7.cpp">
+      <Filter>리소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
